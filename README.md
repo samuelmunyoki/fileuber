@@ -13,3 +13,14 @@ As of now the binaries haven't been built yet so to deploy the applicaction run 
 
 To build a redistributable, production mode package, use `wails build`.
 "# fileuber" 
+
+### ToDo list
+
+- [ ] Optimize server
+- [ ] Implement authentication
+- [ ] Write a good readme
+- [ ] Improve UI
+- [ ] Test on all platforms
+- [ ] Limit downloads
+- [ ] Add folder compression download
+- [ ] Write production ready code
