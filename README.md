@@ -1,18 +1,13 @@
-# README
+# FileUber Project
 
 ## About
 
-This is the official Wails React template.
-
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+This is the official FileUber repository. File uber is a cross-platform application that helps you deploy an http server on your local host and make files in a shared folder accessible to all clients that connect to your workstation.
+Note that this is a project under development.
 
 ## Live Development
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+As of now the binaries haven't been built yet so to deploy the applicaction run `wails dev` . This will create a temporary development server
 
 ## Building
 
