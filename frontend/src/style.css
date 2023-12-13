@@ -1,0 +1,214 @@
+html {
+  background-color: rgb(1, 32, 40);
+  text-align: center;
+  color: rgb(242, 242, 242);
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  color: rgb(242, 242, 242);
+  font-family: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
+@font-face {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("assets/fonts/nunito-v16-latin-regular.woff2") format("woff2");
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0.684);
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(1, 82, 91);
+  border-radius: 5px;
+}
+#app {
+  height: 100vh;
+  text-align: center;
+}
+.details{
+  display: flex;
+  flex-direction: row;
+  height: 85vh;
+}
+.chart{
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+}
+.table{
+  margin-left: 0.2rem;
+  height: 100% !important;
+  overflow-y: scroll;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+  
+}
+.downloads-table {
+
+  background-color: #01434000;
+  border-collapse: collapse;
+  width: 100%;
+ overflow-x: hidden;
+ overflow-y: scroll;
+
+}
+
+.downloads-table th, .downloads-table td {
+  border: 1px solid #dddddde1;
+  padding: 8px;
+  text-align: left;
+
+}
+
+.downloads-table th {
+  background-color: #30303000;
+}
+tbody{
+  overflow: scroll;
+}
+
+.title {
+  margin: 2rem;
+  font-weight: bold;
+  font-stretch: ultra-expanded;
+  font-size: x-large;
+}
+.title-sm{
+  padding: 0.8rem;
+  font-size: medium;
+  font-weight: bold;
+}
+.main-section{
+  width: 100wh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.options-pane{ 
+  margin-left: 1.5rem;
+  margin-right: 0.8rem;
+  margin-top: 0rem;
+  padding: 0;
+  height: 80%;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-danger{
+  color: wheat;
+  background-color: #ff0000de;
+}
+p{
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+.green{
+  padding-left: 1rem;
+  color: rgb(1, 154, 1);
+}
+.line{
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(195, 195, 195, 0.261);  
+  height: 90%;
+  width: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.options-pane-item{
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0rem 5rem;
+}
+input:focus {
+  border: 3px solid #14746f;
+  border-radius: 4px;
+  width: 25rem;
+  height: 1.5rem;
+}
+
+input {
+  border: none;
+  border-radius: 4px;
+  width: 25rem;
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
+.input-checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 1rem !important;
+  text-align: left;
+  justify-content: space-around;
+}
+.input-checkbox {
+  padding: 0px;
+}
+
+.btn {
+  width: 10rem;
+  height: 2rem;
+  margin: 0 4rem;
+  border-radius: 4px;
+  border: none;
+  font-weight: 800;
+}
+.terms-link {
+  margin-top: 1rem;
+  text-align: center;
+  color: aliceblue;
+}
+.active {
+  background-color: rgb(0, 76, 95);
+  color: aliceblue;
+}
+
+.input-group {
+  margin-bottom: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  align-items: center;
+}
+.input-label {
+  width: 5rem;
+  text-align: right;
+  padding-right: 2rem;
+  text-decoration: none;
+  font-size: medium;
+  font-weight: 400;
+}
+.input-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: end;
+}
